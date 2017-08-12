@@ -30,5 +30,3 @@ I hope you may find this useful for your own LaTeX cv!
 ## A note on compilation order
 
 You need to generate a ``.bbl`` file from the ``.bib`` file prior to compiling the pdf.
-
-E.g. in TeXstudio, this means pressing ``F8`` (compile bibliograpy) prior to pressing ``F6`` (compile pdf).

@@ -1,15 +1,18 @@
 \documentclass[10pt,a4paper]{article}
 
-% CREDITS:
-% This cv has been built by Robert Geirhos.
-
 %COMPILING: IMPORTANT INFORMATION
-% 1. F8 for bibliography compiling
-% 2. F1 or F6 for usual compiling
+% You'll need to generate a .bbl file from
+% the .bib file first, otherwise the publications
+% will not show up in the cv.
 
+% in TeXstudio, this means
+% 1. F1 or F6 for usual compiling (generate .aux)
+% 1. F8 for bibliography compiling (generate .bbl)
+% 2. F1 or F6 for usual compiling once more(generate .pdf)
 
-\usepackage{apacite} 
-\usepackage{hanging}
+% use your favourite citation style here
+\usepackage{apacite}
+
 \usepackage[left=2.5cm,right=2.5cm,top=1.5cm,bottom=2.5cm]{geometry}
 
 
@@ -26,6 +29,7 @@
 
 % hanging publications: 1st line starts at beginning of line, 
 % further lines are placed a bit to the right
+\usepackage{hanging}
 \newcommand\publication[1]{%
 	\smallskip\par\hangpara{1.5em}{1}\bibentry{#1}\smallskip
 }
@@ -49,7 +53,7 @@
 	% example without links
 	\publication{Knuth1998}
 	
-	% the old & ugly way
+	% the cumbersome way
 %	\hangpara{1.5em}{1}Knuth, D. E. (1998). 
 %	\textit{The art of computer programming: sorting and searching} (Vol. 3). Pearson Education.
 	
