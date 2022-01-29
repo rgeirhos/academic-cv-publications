@@ -3,11 +3,11 @@
 Generate a customised list of publications for your LaTeX CV using BibTeX entries.
 
 ## Description
-It is common to include a list of publications in one's academic CV. While generating a list of references from a ``.bib`` file is standard practice for writing a paper, I was surprised to see that most LaTeX academic CV templates found online rely on the user manually typing the references in a list. Clearly, this is undesirable, as one usually already has a list of BibTeX entries for one's publications, and changing the citation style means changing every single entry. Still, this has the advantage that publications can be easily sorted as desired, split into different subsections (peer-reviewed articles, conference abstracts, ...) and enriched with links to the pdf.
+It is customary to include a list of publications in one's academic CV. While generating a list of references from a ``.bib`` file is standard practice for writing a paper, I was surprised to see that most LaTeX academic CV templates found online rely on the user manually typing the references in a list. Clearly, this is undesirable, as one usually already has a list of BibTeX entries for one's publications, and changing the citation style means changing every single entry. Still, this has the advantage that publications can be easily sorted as desired, split into different subsections (peer-reviewed articles, conference abstracts, ...) and enriched with links to the pdf.
 
 I here show a way how a list of publications can be easily generated from a ``.bib`` file with all the advantages listed above (customised order, splitting into sections, links) AND little effort (no more than citing a paper).
 
-I hope you may find this useful for your own LaTeX CV!
+I hope that you may find this useful for your own LaTeX CV!
 
 ## Example
 
